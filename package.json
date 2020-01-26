@@ -1,0 +1,26 @@
+{
+  "name": "type-markers",
+  "version": "1.0.0",
+  "description": "A small library to enrich objects with runtime type information",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "tsc": "tsc",
+    "test-only": "jest",
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "watch": "jest --watch --coverage"
+  },
+  "author": "Nick Cuthbert",
+  "license": "MIT",
+  "dependencies": {
+    "decoders": "^1.17.0",
+    "lemons": "^1.4.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.0.0",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.7.2"
+  }
+}
