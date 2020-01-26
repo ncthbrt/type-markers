@@ -11,10 +11,7 @@
   },
   "author": "Nick Cuthbert",
   "license": "MIT",
-  "dependencies": {
-    "decoders": "^1.17.0",
-    "lemons": "^1.4.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.9.1",
     "coveralls": "^3.0.9",
